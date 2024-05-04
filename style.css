@@ -1,0 +1,611 @@
+*{
+    border: 0;
+    margin:0;
+}
+
+.main{
+    width:100px;
+    height:3000px;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to top);
+
+}
+.navbar{
+    width: 1500px;
+    height:100px;
+   margin: auto;
+   background-color: rgb(175, 17, 17);
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 100px;
+    
+}
+.logo{
+    color:black;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100PX;
+ 
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 75px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+     
+    
+
+    
+
+    
+
+ul li{
+    list-style: none;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 17px;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+ul li a{
+    text-decoration:none;
+    color: rgb(27, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: o.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(216, 209, 201);
+    border-width: 2px;
+
+}
+.search{
+    width: 300px;
+    float: left;
+    /* margin-left: 500px; */
+    /* margin-top: 40px; */
+    margin-right: 20px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-right: 2px;
+    border: 1px solid black;
+    border-radius: 1px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+ ::placeholder .srch{
+    color: black;
+    margin-left: 10px;
+    padding: 5px;
+    font-family: arial;
+ }
+.btn{
+    width:100px;
+    height: 40px;
+    float: right;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(12, 1, 1);
+    color: white;
+    /* margin-top: 50px; */
+    
+    
+}
+.btn a{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+    
+}
+.btn a:hover{
+    color: rgb(128, 30, 30);
+}
+.btn:focus{
+    outline: none;
+} 
+.srch:focus{
+    outline: none;
+}
+
+.boxx{
+    width: 1500px;
+    height: 600px;
+    border:0px solid;
+    
+    background-image: url(5.avif);
+}
+.boxx h1{
+    
+    color: beige;
+    font-size: 100PX;
+    margin-left: 100px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.boxx h2{
+    font-size: 100px;
+    color: beige;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.container .box{
+    width: 300px;
+    height: 300px;
+    background-color:grey;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.container:hover > :not(:hover){
+    opacity: 0.4;
+}
+
+.myclass{
+    background-color:rgb(175, 169, 169);
+    color:black;
+    margin-top: -350px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.a{
+    border-style: none;
+    border-color: brown;
+    border-radius: 0px;
+    width: 1380px;
+    height: 20px;
+    padding: 20px;
+    
+    margin-left: 40px;
+}
+.containerr{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.containerr .boxxx{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.containerr:hover > :not(:hover){
+    opacity: 0.4;
+}
+.myclasss{
+    background-color:rgb(175, 169, 169);
+    color:black;
+    margin-top: -280px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.b{
+    border-style: none;
+    border-color: brown;
+    border-radius: 0px;
+    width: 1380px;
+    height: 20px;
+    padding: 20px;
+    
+    margin-left: 40px;
+}
+.containerrr{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.containerrr .boxxxx{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.containerrr:hover > :not(:hover){
+    opacity: 0.4;
+}
+.contain{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -290px;
+    flex-wrap: wrap;
+}
+
+.contain{
+    background-color:whitesmoke;
+    width:100h;
+    height:70vh;
+    cursor: pointer;
+}
+.contain:hover > :not(:hover){
+    opacity: 0.4;
+    cursor: pointer;
+}
+.cntn{
+    /* width:100vw;
+    height:60vh; */
+    background-color: black;
+    width:100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.cntn .xb1{
+    width: 300px;
+    height: 400px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb1 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.cntn .xb2{
+    width: 400px;
+    height: 300px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb2 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.cntn .xb2{
+    width: 200px;
+    height: 300px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb2 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.cntn .xb2{
+    width: 200px;
+    height: 300px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb2 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.cntn .xb3{
+    width: 200px;
+    height: 400px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb3 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.cntn .xb4{
+    width: 200px;
+    height: 400px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb4 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.cntn .xb5{
+    width: 400px;
+    height: 400px;
+    background-color:black;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+    color: white;
+}
+.xb5 ol li{
+    
+    list-style: none;
+    margin-top: 30px;
+}
+.xbb{
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    color: black;
+}
+.content{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.content .xbb{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.content:hover > :not(:hover){
+    opacity: 0.4;
+}
+.contentt{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    flex-wrap: wrap;
+}
+.contentt .xbbb{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.contentt:hover > :not(:hover){
+    opacity: 0.4;
+}
+.contenttt{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    flex-wrap: wrap;
+}
+.contenttt .xbbbb{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.contenttt:hover > :not(:hover){
+    opacity: 0.4;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:70px;
+    right: 550px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 160px;
+    }
+ .form h2{
+    width: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 30px;
+    
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+.form input{
+    width: 240px;
+    height: 35px;
+    background: fixed;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+}
+
+.form input:focus{
+    outline: none;}
+::placeholder .form input{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+
+
+
+.btnnn{
+    width:240px;
+    height: 40px;
+    background: white;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:black;
+    transition: 0.4s ease;
+}
+.btnnn:hover{
+    color: white;
+    
+    color: rgb(5, 5, 65);
+}
+
+.btnnn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.fx{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    flex-wrap: wrap;
+}
+.fx .xf{
+    width: 493px;
+    height: 400px;
+    background-color:red;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.fx:hover > :not(:hover){
+    opacity: 0.4;
+}
+.fxx{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    flex-wrap: wrap;
+}
+.fxx .xff{
+    width: 400px;
+    height: 500px;
+    background-color:red;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.fxx:hover > :not(:hover){
+    opacity: 0.4;
+}
+.fxxx{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    flex-wrap: wrap;
+}
+.fxxx .xfff{
+    width: 400px;
+    height: 500px;
+    background-color:red;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.fxxx:hover > :not(:hover){
+    opacity: 0.4;
+}
+.fxxxx{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+    flex-wrap: wrap;
+}
+.fxxxx .xffff{
+    width: 400px;
+    height: 500px;
+    background-color:red;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+.fxxxx:hover > :not(:hover){
+    opacity: 0.4;
+}
+.dxx{
+    width: 1500px;
+    height: 1500px;
+    background-image: url(55.jpg);
+
+}
